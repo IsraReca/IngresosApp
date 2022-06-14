@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IngresosApp</string>
+
+    <string name="fragment_registro_title">CREAR CUENTA</string>
+    <string name="fragment_registro_field_nombre_hint">Cual es su nombre??</string>
+    <string name="fragment_registro_btn_registrar">REGISTRARCE</string>
+
+
+    <string name="fragment_home_title">Home</string>
+    <string name="fragment_home_btn_ingresos">INGRESOS</string>
+    <string name="fragment_home_btn_egresos">EGRESOS</string>
+
+    <string name="fragment_ingresos_title">Formulario Ingresos</string>
+    <string name="fragment_ingresos_field_ingresos_hint">Ingrese el monto de ingresos</string>
+    <string name="fragment_ingresos_btn_ingresar">REGISTRAR INGRESOS</string>
+
+    <string name="fragment_egresos_title">Formulario Egresos</string>
+    <string name="fragment_egresos_field_egresos_hint">Ingrese el monto de egresos</string>
+    <string name="fragment_egresos_field_tipo_hint">Seleccione el tipo de egreso</string>
+    <string name="fragment_egresos_btn_ingresar">REGISTRAR EGRESOS</string>
+
+</resources>

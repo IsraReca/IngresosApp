@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="lettuce.ingresosapp.ui.HomeFragment"
+        android:label="@string/fragment_home_title"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_ingresos"
+            app:destination="@id/navigation_ingresos" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_egresos"
+            app:destination="@id/navigation_egresos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_ingresos"
+        android:name="lettuce.ingresosapp.ui.IngresosFragment"
+        android:label="@string/fragment_ingresos_title"
+        tools:layout="@layout/fragment_ingresos" />
+
+    <fragment
+        android:id="@+id/navigation_egresos"
+        android:name="lettuce.ingresosapp.ui.EgresosFragment"
+        android:label="@string/fragment_egresos_title"
+        tools:layout="@layout/fragment_egresos" />
+
+
+    <fragment
+        android:id="@+id/navigation_registro"
+        android:name="lettuce.ingresosapp.ui.EgresosFragment"
+        android:label="@string/fragment_egresos_title"
+        tools:layout="@layout/fragment_egresos" />
+
+</navigation>
